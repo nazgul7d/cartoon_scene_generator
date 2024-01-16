@@ -16,13 +16,17 @@ Prerequisites
 - Python environment with necessary libraries
 
 ## Functions
+```python
 generate_first_scene(prompt, universe)
+``` 
 Generates the first scene based on the given prompt and universe details. Returns the scene in JSON format.
-
+```python
 generate_additional_scenes(prev_scene, universe, num_scenes)
+```
 Generates additional scenes based on the previous scene, ensuring coherence and entertainment. Returns a list of scenes in JSON format.
-
-generate_movie_script(prompt, universe, num_scenes)
+```python
+generate_movie_script(prompt, universe, num_scenes) 
+```
 Generates a complete movie script with multiple scenes. Returns a dictionary containing all scenes in JSON format.
 
 ## Example
