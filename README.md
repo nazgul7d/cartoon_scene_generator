@@ -1,4 +1,4 @@
-# H1 cartoon_scene_generator
+# 🎥 cartoon_scene_generator
 This script utilizes OpenAI's GPT-3.5-turbo language model to generate a movie script based on user prompts and a predefined universe. 
 It creates a cohesive and entertaining narrative with multiple scenes, characters, and emotions.
 
@@ -14,7 +14,7 @@ Prerequisites
 OpenAI API key
 Python environment with necessary libraries (see requirements.txt)
 
-# Functions
+## Functions
 generate_first_scene(prompt, universe)
 Generates the first scene based on the given prompt and universe details. Returns the scene in JSON format.
 
@@ -24,7 +24,7 @@ Generates additional scenes based on the previous scene, ensuring coherence and 
 generate_movie_script(prompt, universe, num_scenes)
 Generates a complete movie script with multiple scenes. Returns a dictionary containing all scenes in JSON format.
 
-# Example
+## Example
 prompt = "Hanging around looking for something to do"
 
 universe = {
