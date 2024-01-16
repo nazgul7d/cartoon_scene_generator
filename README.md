@@ -12,8 +12,8 @@ TEST_OPENAI_API_KEY = "PUT YOUR KEY HERE"
 ```
 
 Prerequisites
-OpenAI API key
-Python environment with necessary libraries (see requirements.txt)
+- OpenAI API key
+- Python environment with necessary libraries
 
 ## Functions
 generate_first_scene(prompt, universe)
