@@ -9,6 +9,7 @@ To use this script, you'll need an API key from OpenAI. Replace `PUT YOUR KEY HE
 ```python
 # API key for OpenAI GPT-3.5-turbo
 TEST_OPENAI_API_KEY = "PUT YOUR KEY HERE"
+```
 
 Prerequisites
 OpenAI API key
